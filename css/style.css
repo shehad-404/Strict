@@ -1,0 +1,645 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* header parts */
+header{
+    background-color: #f6f9f9;
+    padding: 24px 0;
+}
+.header_wrapper{
+
+    width: 70%;
+
+    margin: auto;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.logo{
+    
+    width: 20%;
+}
+.logo img{
+    
+    height: 30px;
+}
+
+nav{
+
+    width: 50%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 50px;
+    color:  #2d3950;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+
+
+/* banner part  */
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.banner_content{
+    
+    position: absolute;
+        
+    width: 400px;
+        
+    top: 50%;
+        
+    left: 50%;
+        
+    transform: translate(-50%, -50%);
+        
+    text-align: center;
+}
+.banner_content h1{
+    
+    color: #ffffff;
+    
+    font-size: 90px;
+    
+    font-weight: bold;
+    
+    line-height: 100px;
+    
+    margin-bottom: 20px;
+}
+.banner_content span{
+
+    display: block;
+    
+    height: 2px;
+    
+    width: 100%;
+    
+    background: #15a4fa;
+}
+.banner_content p{
+
+    color: #ffffff;
+    
+    font-size: 14px;
+    
+    margin: 30px 0;
+}
+.banner_content button{
+
+    color: #ffffff;
+    
+    background: transparent;
+    
+    padding: 10px 20px;
+    
+    border: none;
+    
+    border: 1px solid #15a4fa;
+    
+    border-radius: 3px;
+    
+    font-size: 14px;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+}
+.banner_content button:hover{
+    background-color: #15a4fa;
+}
+
+.banner_content .icon{
+    margin-top: 150px ;
+}
+.banner_content .icon i{
+    color: #ffffff;
+    font-size: 24px;
+}
+
+/* simple section part  */
+.simple_design{
+
+    background-color: #f6f9f9;
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    margin: auto;
+    
+    text-align: center;
+    
+    padding: 60px 0;
+}
+.simple_wrapper{
+    
+    width: 70%;
+}
+.simple_wrapper h2{
+    
+    margin-bottom: 16px;
+        
+    font-size: 28px;
+        
+    color: #2d3950;
+        
+    font-family: 'Lato', sans-serif;
+        
+    font-weight: normal;
+}
+.simple_wrapper p{
+
+font-size: 14px;
+
+font-family: 'Lato', sans-serif;
+
+color: #999999;
+
+font-weight: normal;
+
+line-height: 24px;
+
+word-spacing: 2px;
+}
+
+/* feature section  */
+.feature_section{
+
+    padding: 70px 0;
+}
+.feature_wrapper{
+
+    width: 70%;
+
+    margin: auto;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+.feature{
+
+    width: 32%;
+
+    text-align: center;
+}
+.icon_box{
+
+    height: 65px;
+
+    width: 65px;
+
+    /* background-color: red; */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,5fc3ff+50,5fc3ff+100 */
+background: linear-gradient(to right,  #48baff 0%,#48baff 50%,#5fc3ff 50%,#5fc3ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+    line-height: 65px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin: auto;
+
+    color: #fff;
+
+    font-size: 28px;
+}
+.feature h3{
+    
+    margin: 14px 0;
+    
+    color: #2d3950;
+    
+    font-family: 'Lato', sans-serif;
+    
+    font-weight: normal;
+}
+.feature p{
+    color: #999999;
+    font-size: small;
+}
+
+/* portfolio section  */
+
+.portfolio_section{
+
+background-color: #f9f9f9;
+
+padding: 60px 0;
+}
+.wrapper{
+
+width: 70%;
+
+margin: auto;
+}
+.heading{
+    
+text-align: center;
+    
+margin-bottom: 50px;
+}
+.heading h1{
+
+color: #2d3950;
+
+font-family: 'Lato', sans-serif;
+
+font-weight: normal;
+
+font-size: 28px;
+
+color: #2d3950;
+
+font-family: 'Lato', sans-serif;
+
+font-weight: normal;
+}
+.heading p{
+
+color: #909090;
+
+color: #999999;
+
+font-size: small;
+
+/* font-family: 'Lato', sans-serif; */
+
+padding-top: 20px;
+
+/* font-weight: 600; */
+}
+.portfolio_item{
+
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content: space-between;
+}
+
+/* image part  */
+.design{  
+width: 32%; 
+margin-bottom: 18px;
+position: relative;
+z-index: 0;
+}
+
+.design::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    
+    background-color: #2bacfa;
+    top: 0;
+    left: 0;
+    /* top: 50%;
+    left: 50%;
+    border-radius: 50%; 
+    transform: translate(-50%, -50%); */
+    /* bottom: 0; */
+    /* opacity: 0; */
+    opacity: .8; 
+    transition: .5s all ease-in-out;
+}
+
+.design:hover::before{
+    /* opacity: .5; */
+    width: 50%;
+}
+
+.design::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background-color: #2bacfa;
+    bottom: 0;
+    right: 0;
+    opacity: .8; 
+    transition: .5s all ease-in-out;
+}
+.design:hover::after{
+    width: 50%;
+}
+.design img{
+
+width: 100%;
+
+display: block;
+}
+
+/* icon  */
+.icon_list{
+    
+position: absolute;
+    
+/* color: #fff; */   
+top: 50%;    
+left: 50%;
+    
+transform: translate(-50%, -50%);
+transition: .5s all ease-in-out;
+display: flex;
+opacity: 0;
+z-index: 3;
+
+}
+
+.design:hover .icon_list{
+    opacity: 1;
+}
+
+.icon_list .icon{
+
+height: 50px;
+
+width: 50px;
+
+border: 1px solid white;
+
+border-radius: 4px;
+
+margin-right: 10px;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+}
+
+.icon_list .icon a{
+
+color: #fff;
+}
+
+
+/* contact us section */
+
+.contact_us{
+    background-image: url(../images/contact_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    position: relative;
+    z-index: 0;
+}
+.contact_us::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #2d3950;
+    opacity: .8;
+    z-index: -1;
+
+}
+
+.form_wrapper{
+    
+width: 30%;
+    
+margin: auto;
+}
+.form_wrapper h2{
+
+color: #fff;
+
+font-size: 30px;
+
+font-family: 'Lato',sans-serif;
+
+font-weight: normal;
+
+text-align: center;
+
+margin-bottom: 14px;
+
+word-spacing: 3px;
+}
+.form_wrapper p{
+
+color: #999999;
+
+font-size: small;
+
+text-align: center;
+
+margin-bottom: 24px;
+
+margin-left: 10px;
+}
+
+.form_wrapper form input{
+    
+width: 100%;
+    
+background: transparent;
+    
+padding: 15px 0 15px 15px;
+    
+margin: 10px 0;
+    
+border: 1px solid #999999;
+    
+border-radius: 3px;
+color: #ffffff;
+}
+
+
+/* Submit button  */
+/* .form_wrapper form input[type="submit"]{
+    
+color: #fff;
+    
+padding: 10px 34px;
+    
+margin-right: 0px;
+    
+border: none;
+    
+border: 1px solid #2196F3;
+    
+border-radius: 3px;
+cursor: pointer;
+transition: .4s all ease-in-out;
+} */
+
+
+/* .form_wrapper form input[type="submit"]:hover{
+    background-color: #15a4fa; 
+} */
+
+
+.form_wrapper form textarea{
+    
+width: 100%;
+    
+background: transparent;
+    
+padding: 15px 0 15px 15px;
+    
+margin: 10px 0;
+    
+border: 1px solid #999999;
+    
+border-radius: 3px;
+color: #ffffff;
+}
+
+
+.submit_part{
+
+/* width: 100%; */
+
+display: flex;
+
+justify-content: space-between;
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.check input[type="checkbox"]{
+    width: 16px;
+}
+.check p{
+color: #ffffff;
+margin-left: 10px;
+
+text-align: center;
+
+margin-bottom: 0;
+}
+
+.submit_btn{
+
+}
+.submit_btn input[type="submit"]{
+    color: #fff;
+    
+padding: 10px 34px;
+    
+margin-right: 0px;
+    
+border: none;
+    
+border: 1px solid #2196F3;
+    
+border-radius: 3px;
+cursor: pointer;
+transition: .4s all ease-in-out;
+
+}
+.submit_btn input[type="submit"]:hover{
+    background-color: #15a4fa; 
+}
+
+.form_wrapper form input:focus, .form_wrapper form textarea:focus{
+    outline: none;
+    border-color: #15a4fa;
+}
+
+/* .form_wrapper form textarea:focus{
+    outline: none;
+} */
+
+.form_wrapper form input::placeholder{
+    color: #999999;
+}
+.form_wrapper form textarea::placeholder{
+    color: #999999;
+}
+
+
+
+/* footer section  */
+
+.footer_wrapper{
+
+width: 70%;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+margin: auto;
+
+padding: 24px 0;
+}
+
+.copy p{
+
+color: #999999;
+
+font-size: small;
+}
+.social_icon{
+    display: flex;
+}
+.social_icon ul{
+
+list-style: none;
+
+display: flex;
+}
+.social_icon ul li{
+
+height: 30px;
+
+width: 30px;
+
+line-height: 30px;
+
+text-align: center;
+
+background-color: #15a4fa;
+
+margin-left: 10px;
+}
+.social_icon ul li a{
+
+color: #ffffff;
+
+/* text-decoration: none; */
+}
