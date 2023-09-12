@@ -176,17 +176,17 @@ nav ul li a{
 }
 .simple_wrapper p{
 
-font-size: 14px;
+    font-size: 14px;
 
-font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 
-color: #999999;
+    color: #999999;
 
-font-weight: normal;
+    font-weight: normal;
 
-line-height: 24px;
+    line-height: 24px;
 
-word-spacing: 2px;
+    word-spacing: 2px;
 }
 
 /* feature section  */
@@ -206,7 +206,7 @@ word-spacing: 2px;
 }
 .feature{
 
-    width: 32%;
+    width: 28%;
 
     text-align: center;
 }
@@ -218,7 +218,7 @@ word-spacing: 2px;
 
     /* background-color: red; */
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,5fc3ff+50,5fc3ff+100 */
-background: linear-gradient(to right,  #48baff 0%,#48baff 50%,#5fc3ff 50%,#5fc3ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(to right,  #48baff 0%,#48baff 50%,#5fc3ff 50%,#5fc3ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
 
     line-height: 65px;
@@ -254,67 +254,67 @@ background: linear-gradient(to right,  #48baff 0%,#48baff 50%,#5fc3ff 50%,#5fc3f
 
 .portfolio_section{
 
-background-color: #f9f9f9;
+    background-color: #f9f9f9;
 
-padding: 60px 0;
+    padding: 60px 0;
 }
 .wrapper{
 
-width: 70%;
+    width: 70%;
 
-margin: auto;
+    margin: auto;
 }
 .heading{
     
-text-align: center;
-    
-margin-bottom: 50px;
+    text-align: center;
+        
+    margin-bottom: 50px;
 }
 .heading h1{
 
-color: #2d3950;
+    color: #2d3950;
 
-font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 
-font-weight: normal;
+    font-weight: normal;
 
-font-size: 28px;
+    font-size: 28px;
 
-color: #2d3950;
+    color: #2d3950;
 
-font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 
-font-weight: normal;
+    font-weight: normal;
 }
 .heading p{
 
-color: #909090;
+    color: #909090;
 
-color: #999999;
+    color: #999999;
 
-font-size: small;
+    font-size: small;
 
 /* font-family: 'Lato', sans-serif; */
 
-padding-top: 20px;
+    padding-top: 20px;
 
 /* font-weight: 600; */
 }
 .portfolio_item{
 
-display: flex;
+    display: flex;
 
-flex-wrap: wrap;
+    flex-wrap: wrap;
 
-justify-content: space-between;
+    justify-content: space-between;
 }
 
 /* image part  */
 .design{  
-width: 32%; 
-margin-bottom: 18px;
-position: relative;
-z-index: 0;
+    width: 32%; 
+    margin-bottom: 18px;
+    position: relative;
+    z-index: 0;
 }
 
 .design::before{
@@ -357,25 +357,25 @@ z-index: 0;
 }
 .design img{
 
-width: 100%;
+    width: 100%;
 
-display: block;
+    display: block;
 }
 
 /* icon  */
 .icon_list{
     
-position: absolute;
-    
-/* color: #fff; */   
-top: 50%;    
-left: 50%;
-    
-transform: translate(-50%, -50%);
-transition: .5s all ease-in-out;
-display: flex;
-opacity: 0;
-z-index: 3;
+    position: absolute;
+        
+    /* color: #fff; */   
+    top: 50%;    
+    left: 50%;
+        
+    transform: translate(-50%, -50%);
+    transition: .5s all ease-in-out;
+    display: flex;
+    opacity: 0;
+    z-index: 3;
 
 }
 
@@ -385,26 +385,26 @@ z-index: 3;
 
 .icon_list .icon{
 
-height: 50px;
+    height: 50px;
 
-width: 50px;
+    width: 50px;
 
-border: 1px solid white;
+    border: 1px solid white;
 
-border-radius: 4px;
+    border-radius: 4px;
 
-margin-right: 10px;
+    margin-right: 10px;
 
-display: flex;
+    display: flex;
 
-align-items: center;
+    align-items: center;
 
-justify-content: center;
+    justify-content: center;
 }
 
 .icon_list .icon a{
 
-color: #fff;
+    color: #fff;
 }
 
 
@@ -434,26 +434,28 @@ color: #fff;
 
 .form_wrapper{
     
-width: 30%;
-    
-margin: auto;
+    width: 30%;
+        
+    margin: auto;
 }
+
 .form_wrapper h2{
 
-color: #fff;
+    color: #fff;
 
-font-size: 30px;
+    font-size: 30px;
 
-font-family: 'Lato',sans-serif;
+    font-family: 'Lato',sans-serif;
 
-font-weight: normal;
+    font-weight: normal;
 
-text-align: center;
+    text-align: center;
 
-margin-bottom: 14px;
+    margin-bottom: 14px;
 
-word-spacing: 3px;
+    word-spacing: 3px;
 }
+
 .form_wrapper p{
 
 color: #999999;
@@ -469,18 +471,18 @@ margin-left: 10px;
 
 .form_wrapper form input{
     
-width: 100%;
-    
-background: transparent;
-    
-padding: 15px 0 15px 15px;
-    
-margin: 10px 0;
-    
-border: 1px solid #999999;
-    
-border-radius: 3px;
-color: #ffffff;
+    width: 100%;
+        
+    background: transparent;
+        
+    padding: 15px 0 15px 15px;
+        
+    margin: 10px 0;
+        
+    border: 1px solid #999999;
+        
+    border-radius: 3px;
+    color: #ffffff;
 }
 
 
@@ -510,29 +512,30 @@ transition: .4s all ease-in-out;
 
 .form_wrapper form textarea{
     
-width: 100%;
-    
-background: transparent;
-    
-padding: 15px 0 15px 15px;
-    
-margin: 10px 0;
-    
-border: 1px solid #999999;
-    
-border-radius: 3px;
-color: #ffffff;
-}
+    width: 100%;
+        
+    background: transparent;
+        
+    padding: 15px 0 15px 15px;
+        
+    margin: 10px 0;
+        
+    border: 1px solid #999999;
+        
+    border-radius: 3px;
+    color: #ffffff;
+    }
 
 
 .submit_part{
 
-/* width: 100%; */
+    /* width: 100%; */
 
-display: flex;
+    display: flex;
 
-justify-content: space-between;
+    justify-content: space-between;
 }
+
 .check{
     display: flex;
     align-items: center;
@@ -542,33 +545,32 @@ justify-content: space-between;
     width: 16px;
 }
 .check p{
-color: #ffffff;
-margin-left: 10px;
+    color: #ffffff;
+    margin-left: 10px;
 
-text-align: center;
+    text-align: center;
 
-margin-bottom: 0;
+    margin-bottom: 0;
 }
 
-.submit_btn{
 
-}
 .submit_btn input[type="submit"]{
     color: #fff;
     
-padding: 10px 34px;
-    
-margin-right: 0px;
-    
-border: none;
-    
-border: 1px solid #2196F3;
-    
-border-radius: 3px;
-cursor: pointer;
-transition: .4s all ease-in-out;
+    padding: 10px 34px;
+        
+    margin-right: 0px;
+        
+    border: none;
+        
+    border: 1px solid #2196F3;
+        
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
 
 }
+
 .submit_btn input[type="submit"]:hover{
     background-color: #15a4fa; 
 }
@@ -595,51 +597,55 @@ transition: .4s all ease-in-out;
 
 .footer_wrapper{
 
-width: 70%;
+    width: 70%;
 
-display: flex;
+    display: flex;
 
-justify-content: space-between;
+    justify-content: space-between;
 
-align-items: center;
+    align-items: center;
 
-margin: auto;
+    margin: auto;
 
-padding: 24px 0;
+    padding: 24px 0;
 }
 
 .copy p{
 
-color: #999999;
+    color: #999999;
 
-font-size: small;
+    font-size: small;
 }
+
 .social_icon{
     display: flex;
 }
+
 .social_icon ul{
 
-list-style: none;
+    list-style: none;
 
-display: flex;
+    display: flex;
 }
+
 .social_icon ul li{
 
-height: 30px;
+    height: 30px;
 
-width: 30px;
+    width: 30px;
 
-line-height: 30px;
+    line-height: 30px;
 
-text-align: center;
+    text-align: center;
 
-background-color: #15a4fa;
+    background-color: #15a4fa;
 
-margin-left: 10px;
+    margin-left: 10px;
 }
+
 .social_icon ul li a{
 
-color: #ffffff;
+    color: #ffffff;
 
-/* text-decoration: none; */
+    /* text-decoration: none; */
 }
