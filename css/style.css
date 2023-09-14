@@ -485,6 +485,8 @@ margin-left: 10px;
         
     border-radius: 3px;
     color: #ffffff;
+    
+    box-sizing: border-box;
 }
 
 
@@ -526,6 +528,8 @@ transition: .4s all ease-in-out;
         
     border-radius: 3px;
     color: #ffffff;
+
+    box-sizing: border-box;
     }
 
 
