@@ -129,7 +129,6 @@ nav ul li a{
     cursor: pointer;
     transition: .4s all ease-in-out;
 }
-
 .banner_content button:hover{
     background-color: #15a4fa;
 }
@@ -141,7 +140,6 @@ nav ul li a{
     color: #ffffff;
     font-size: 24px;
 }
-
 
 /* simple section part  */
 .simple_design{
@@ -485,7 +483,6 @@ margin-left: 10px;
         
     border-radius: 3px;
     color: #ffffff;
-    
     box-sizing: border-box;
 }
 
@@ -528,7 +525,6 @@ transition: .4s all ease-in-out;
         
     border-radius: 3px;
     color: #ffffff;
-
     box-sizing: border-box;
     }
 
